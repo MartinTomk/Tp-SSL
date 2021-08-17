@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+        <!-- Main CSS -->
+        <link rel = "stylesheet" href="sources/style.css" type="text/css">
+      </head>
+  <body>
+
+
+    <header>
+        <div class ="container">
+            <div class ="row">
+              <div class = "col-md-4">
+                <a href="https://www.frba.utn.edu.ar/"><img src ="sources/img/Logo-Utn.jpg" class ="header-logo" alt="Logo-UTN"></a>
+              </div>
+              <div class = "col-md-8">
+                <h3 class = "header-text">TP1 SSL Web Scraper</h4>
+              </div>
+            </div>
+
+        </div>
+    </header>
+    <div id = "main">
+        <div class = "container">
+            <div id = "welcome"></div>
+            <h2 class= "titulo-principal">Preguntas Frecuentes</h2>
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <h3 class = "title-card-collapse"> Requerimientos </h3>
+                      </button>
+                    </h2>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Sistema Operativo : Windows
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h3 class = "title-card-collapse"> ¿Como lo Ejecuto? </h3>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Es fácil, descargar el zip y descomprimir los archivos en una carpeta. A continuación ejecute la consola de comandos, 
+                      dirijase a la ubicación del archivo y una vez allí, escriba webscraper.exe en CMD o ./webscrapper.exe en Powershell Si no conoce bien el como usar la consola de comandos dirijase a la seccion
+                      "Usar la consola de comandos" en el presente Manual.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h3 class = "title-card-collapse">Funcionamiento del programa una vez ejecutado</h3>
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Una vez ejecutado usted se encontrará en el menu principal, aquí, usted puede elegir la acción que desea realizar seleccionando la opcion correspondiente en la consola
+                      y luego tocando Enter. De esta manera se realizara la opción que usted haya seleccionado y el programa preguntará si desea realizar otra accion.
+                      Si elige afirmativamente volverá al menu principal, y en caso contrario el programa se cerrará.  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      <h3 class = "title-card-collapse">Usar la consola de comandos o CMD</h3>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Primero, es necesario, averiguar la ruta para acceder al programa para esto dirijase a la carpeta donde descomprio el archivo
+                    y luego haga click derecho en la barra de direcciones y seleccione "Copiar Dirección".
+                    <img src="sources/img/BarraDireccionesEjemplo.jpg" class = "imagen-ayuda-direcciones" alt = "Copiar-Barra-Direcciones">
+                    Ahora es necesario abrir la consola, para esto, en windows presione simultaneamente la tecla "windows" o "inicio" y "R", a continuación se abre una ventana en la cual 
+                    debera escribir cmd y presionar ejecutar. Una vez abierta la consola escriba cd y pegue la ruta copiada. Debe quedar parecido a lo siguiente
+                    <h4>cd C:\Users\Windows 10\Documents\Web Scrapper</h4>
+                    Una vez este posicionado en la carpeta del ejecutable, escriba
+                    <h4>webscraper.exe</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      <h3 class = "title-card-collapse">Generando un Archivo CSV</h3>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Si desea crear un archivo .CSV debe elegir la opción "Exportar listado en un archivo CSV", una vez generado el archivo, puede ser editado con Microsoft Excel o programas similares 
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      <h3 class = "title-card-collapse">Generando un Archivo HTML</h3>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Si desea crear un archivo .HTML debe elegir la opción "Exportar listado en un archivo HTML resaltando con color las filas cuya apertura es mayor al precio compra/venta", una vez generado el archivo, puede ser abierto con su explorador predeterminado, por ejemplo google Chrome.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      <h3 class = "title-card-collapse">Ver el Listado de acciones en Pantalla</h3>
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Si desea ver el listado por la pantalla de la consola elija la opción "Listar en pantalla las acciones cuya variacion fue mayor a "
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div><h4 class="footer-text">Trabajo Practico realizado para la <a href="https://www.frba.utn.edu.ar/">Universidad Tecnologica nacional</a></h4></div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

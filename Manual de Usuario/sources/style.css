@@ -1,0 +1,59 @@
+.title-card-collapse {
+    text-decoration:  none;
+    color: black;
+    font-size: 24px;
+}
+
+#main>.container {
+    box-shadow: 1px 5px 6px rgba(0,0,0,0.5);
+    background-color:white;
+    padding-top: 20px;
+}
+
+.imagen-ayuda-direcciones {
+    width: 100%;
+}
+h4 {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.titulo-principal {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+header{
+    background-color: white;
+    height: 150px;
+}
+.header-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 60%;
+}
+#main{
+    background-color:#cdcdcd;
+    box-shadow: 1px 0px 6px rgba(0,0,0,0.6);
+}
+
+.header-text {
+    color: black;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+footer{
+    margin-top:5px;
+    background-color: black;
+    height: 20px;
+}
+.footer-text{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
